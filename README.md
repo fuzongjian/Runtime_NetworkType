@@ -1,0 +1,2 @@
+# Runtime_NetworkType
+通过Runtime机制获取app属性，然后根据属性来取得相应的值
