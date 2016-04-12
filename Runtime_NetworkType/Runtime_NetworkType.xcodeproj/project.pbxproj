@@ -16,6 +16,7 @@
 		504EA27C1CBCC7890035194B /* Runtime_NetworkTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EA27B1CBCC7890035194B /* Runtime_NetworkTypeTests.m */; };
 		504EA2871CBCC7890035194B /* Runtime_NetworkTypeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EA2861CBCC7890035194B /* Runtime_NetworkTypeUITests.m */; };
 		504EA2961CBCC7C20035194B /* AppNetworkType.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EA2951CBCC7C20035194B /* AppNetworkType.m */; };
+		504EA2E11CBCE3FF0035194B /* App_iPhone_IP.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EA2E01CBCE3FF0035194B /* App_iPhone_IP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		504EA2881CBCC7890035194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504EA2941CBCC7C20035194B /* AppNetworkType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNetworkType.h; sourceTree = "<group>"; };
 		504EA2951CBCC7C20035194B /* AppNetworkType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNetworkType.m; sourceTree = "<group>"; };
+		504EA2DF1CBCE3FF0035194B /* App_iPhone_IP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_iPhone_IP.h; sourceTree = "<group>"; };
+		504EA2E01CBCE3FF0035194B /* App_iPhone_IP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App_iPhone_IP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				504EA2681CBCC7890035194B /* ViewController.m */,
 				504EA2941CBCC7C20035194B /* AppNetworkType.h */,
 				504EA2951CBCC7C20035194B /* AppNetworkType.m */,
+				504EA2DF1CBCE3FF0035194B /* App_iPhone_IP.h */,
+				504EA2E01CBCE3FF0035194B /* App_iPhone_IP.m */,
 				504EA26A1CBCC7890035194B /* Main.storyboard */,
 				504EA26D1CBCC7890035194B /* Assets.xcassets */,
 				504EA26F1CBCC7890035194B /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			files = (
 				504EA2961CBCC7C20035194B /* AppNetworkType.m in Sources */,
 				504EA2691CBCC7890035194B /* ViewController.m in Sources */,
+				504EA2E11CBCE3FF0035194B /* App_iPhone_IP.m in Sources */,
 				504EA2661CBCC7890035194B /* AppDelegate.m in Sources */,
 				504EA2631CBCC7890035194B /* main.m in Sources */,
 			);
@@ -506,6 +512,7 @@
 				504EA28D1CBCC7890035194B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504EA28E1CBCC7890035194B /* Build configuration list for PBXNativeTarget "Runtime_NetworkTypeTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				504EA2901CBCC7890035194B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		504EA2911CBCC7890035194B /* Build configuration list for PBXNativeTarget "Runtime_NetworkTypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +530,7 @@
 				504EA2931CBCC7890035194B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

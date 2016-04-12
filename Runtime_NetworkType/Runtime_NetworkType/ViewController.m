@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AppNetworkType.h"
+#import "App_iPhone_IP.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      NSLog(@"%@",[AppNetworkType getAppNetworkType]);
+     NSLog(@"%@",[App_iPhone_IP getIP:YES]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
